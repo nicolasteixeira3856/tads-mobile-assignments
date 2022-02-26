@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    color: #222;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+h1 {
+    margin: 30px;
+}
+
+.mmos {
+    height: 400px;
+    width: 580px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.result {
+    height: auto;
+    width: auto;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.mmo {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: #4096ff;
+    border: 1px solid #222;
+    margin: 2px;
+    color: #ffffff;
+}
+
+.voteCount {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mmobutton {
+    color: #ffffff;
+    background-color: #003f8c;
+    padding: 6px;
+    font-size: 24px;
+    outline: none;
+    cursor: pointer;
+}
